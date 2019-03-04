@@ -1,0 +1,84 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main styling (for the core elements) */
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+}
+
+
+a {
+    color: #333;
+    text-decoration: none;
+
+}
+
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+
+nav {
+    background: #333333;
+    color: white;
+    overflow: auto;
+
+}
+
+
+nav .container {
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+
+nav, a {
+    color: white;
+}
+
+
+nav h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+
+nav ul li {
+    float: left;
+}
+
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul li a:hover, nav ul li a.current {
+    background: #444444;
+    color: #f7c0aa;
+}
