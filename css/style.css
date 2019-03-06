@@ -320,6 +320,36 @@ nav ul li a:hover, nav ul li a.current {
 
 #about-testimonials .testimonial p {
     padding: 40px;
+}
 
+
+/* Contact page */
+#contact-form .form-group {
+    margin-bottom: 20px;
+
+}
+
+
+#contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.form-group textarea, .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+
+
+.form-group textarea:focus, .form-group input:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
+
+.form-group textarea {
+    height: 200px;
 }
 
