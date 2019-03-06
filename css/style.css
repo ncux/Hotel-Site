@@ -24,6 +24,11 @@ html, body {
 }
 
 
+.clearance {
+    clear: both;
+}
+
+
 .text-primary {
     color: #f7c08a;
 }
@@ -71,7 +76,24 @@ html, body {
 
 .primary-background {
     background: #f7c08a;
-    color: white;
+    color: #333333;
+}
+
+
+/* padding classes */
+.padding-vertically-1 {
+    padding: 10px 0;
+}
+
+
+
+.padding-vertically-2 {
+    padding: 20px 0;
+}
+
+
+.padding-vertically-3 {
+    padding: 30px 0;
 }
 
 
@@ -208,7 +230,96 @@ nav ul li a:hover, nav ul li a.current {
 
 
 #home-info .info-content p {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
+
+/* Features section */
+.box {
+    float: left;
+    width: 33.3%;
+    height: 350px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.box i {
+    margin-bottom: 13px;
+}
+
+
+/* Footer */
+#home-footer {
+    text-align: center;
+    background: #444444;
+    color: white;
+    padding: 20px;
+}
+
+
+/* About page styles */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+
+#about-info .info-right img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+
+#about-info h1 {
+    font-size: 30px;
+}
+
+
+#about-testimonials {
+    height: 600px;
+    background: url("../images/dining.jpeg") no-repeat center center/cover;
+    padding-top: 40px;
+}
+
+
+#about-testimonials h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #333333;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.testimonial img {
+    margin: 50px 20px;
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+}
+
+
+#about-testimonials .testimonial {
+    opacity: 0.9;
+    border-radius: 1rem;
+    padding: 20px;
+
+}
+
+
+#about-testimonials .testimonial p {
+    padding: 40px;
+
+}
 
