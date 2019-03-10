@@ -177,7 +177,6 @@ nav ul li a:hover, nav ul li a.current {
     color: white;
     text-align: center;
     padding-top: 170px;
-
 }
 
 
@@ -287,7 +286,7 @@ nav ul li a:hover, nav ul li a.current {
 
 
 #about-testimonials {
-    height: 600px;
+    height: 100%;
     background: url("../images/dining.jpeg") no-repeat center center/cover;
     padding-top: 40px;
 }
